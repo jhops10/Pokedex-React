@@ -1,0 +1,20 @@
+.footerContainer {
+  background-color: #00747c;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  padding: 10px;
+}
+
+.footerContainer img {
+  height: 50px;
+}
+
+.footerContainer span {
+  font-weight: bold;
+  color: #dbdbdb;
+  font-size: 12px;
+}

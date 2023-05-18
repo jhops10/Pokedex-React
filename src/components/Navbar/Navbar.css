@@ -1,0 +1,41 @@
+.navContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.navContainer input {
+  margin: 0 10px;
+  background-color: transparent;
+  border: 2px solid #00747c;
+  padding: 5px 10px;
+  border-radius: 10px;
+  outline: none;
+  color: #202022;
+}
+
+.navContainer span {
+  font-weight: bold;
+  color: #202022;
+}
+
+.navContainer ul {
+  display: flex;
+  align-items: center;
+}
+
+.navContainer button {
+  margin: 0 10px;
+  background-color: #00747c;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #dbdbdb;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
